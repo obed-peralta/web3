@@ -1,1 +1,208 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;700&family=Roboto:wght@100;300;400;700&display=swap');
+
+body{
+    background-color: #f1f8f3;
+    padding: 0px;
+    margin: 0%;
+}
+h1{
+    font-family: 'Hind';
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    color: #519894;
+}
+h2{
+    font-family: 'Hind';
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #519894;
+}
+h3{
+    font-family: 'Hind';
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #519894;
+}   
+p{
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    color: #b2d1cc;
+}
+#icono img{
+    border-radius: 0%;
+    width: 100%;
+    height: 90%;
+}
+#icono{
+    background-color: #90d8c5;
+    position: absolute;
+    border: solid 1px;
+    width: 48px;
+    height: 60px;
+    padding: 5px;
+    align-items: center;
+    margin-left: 3rem;
+    margin-top: 0%;
+}
+header{
+    height: 4rem;
+    vertical-align: middle;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    z-index: 99;
+}
+nav{
+    text-align: right;
+    background-color: #ddede7;
+    width: 100%;
+    padding: auto;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+header nav li{
+    list-style: none;
+    display: inline;
+    height: 2rem;
+    margin-right: 5rem;
+    margin-top: 3px;
+    font: 20px 'Hind';
+    color: #4e5756;
+    font-weight: bold;
+    cursor: pointer;
+}
+header nav li:hover{
+    background-color: #c0d9d5;
+    color: #000;
+}
+
+/* conatiners */
+
+.container-1, .container-2, .container-3, .container-4, .container-5, .container-6, .container-7, .container-8{
+    margin-left: 0%;
+}
+
+/* container-1 */
+.container-1{
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    height: 600px;
+}
+.container-1 .row{
+    display: inline-block;
+}
+#background{
+    position: absolute;
+    z-index: -2;
+    width: 500px;
+    height: 500px;
+}
+#chica-yoga{
+    width: 300px;
+    height: 300px;
+    border: solid 3px #c0d9d5;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    margin-left: 6rem;
+    margin-top: 6.7rem;
+}
+.container-1 .row .section{
+    display: inline;
+}
+.container-1 .row .section .target{
+    margin-left: 50%;
+}
+.container-1 .row .section .target .footer{
+    text-align: center;
+}
+.container-1 .row .section .target .footer button{
+    color: #FFF;
+    background-color: #529995;
+    border: none;
+    border-radius: 60px;
+    padding: 3px 10px 3px 10px;
+    letter-spacing: 5pt;
+    font-family: 'Hind';
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+.container-1 .row .section .target .footer button:hover{
+    opacity: 0.8;
+}
+
+/* container-2 */
+
+.container-2{
+    background-color: #529995;
+    width: 100%;
+    height: 800px;
+    display: block;
+}
+
+.container-2 .row .section .target{
+    text-align: center;
+}
+.container-2 .row .section .target .title h2{
+    text-align: center;
+    color: #FFF;
+    padding: 2rem;
+}
+.container-2 .row-2 .section{
+    margin-left: 10%;
+}
+.container-2 .row-2 .section .target{
+    left: 12%;
+    display: inline-block;
+    text-align: center;
+    width: 350px;
+    height: 450px;
+}
+.container-2 .row-2 .section .target .title h3{
+    text-align: center;
+    color: #FFF;
+}
+.container-2 .row-2 .section .target .body p{
+    font-size: 1.1rem;
+}
+
+.container-2 .row-2 .section .target .image .background-target{
+    position: relative;
+    width: 13rem;
+    height: 13rem;
+    margin-left: 0%;
+}
+.container-2 .row-2 .section .target .image .chica-yoga-target{
+    position: absolute;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    margin-left: -11rem;
+    margin-top: 2.2rem;
+}
+
+/* container-3 */
+.container-3{
+    width: 100%;
+    height: 38.5rem;
+}
+.container-3 .background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url('iconos/chica-yoga5.png');
+    opacity: 0.25;
+    z-index: -10;
+}
+.container-3 .row-2 .section{
+    display: inline-block;
+}
+.container-3 .row-2 .section .indicators{
+    display: inline-block;
+}
