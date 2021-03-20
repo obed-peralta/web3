@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;700&family=Roboto:wght@100;300;400;700&display=swap');
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
 body{
     background-color: #f1f8f3;
     padding: 0px;
@@ -109,7 +109,11 @@ header nav li:hover{
     border-radius: 50%;
     position: absolute;
     z-index: -1;
-    margin-left: 6rem;
+    margin-left: 6rem; /* em y rem */
+    /*
+        1em = ~16px;
+        1rem = ~15-18px;
+    */
     margin-top: 6.7rem;
 }
 .container-1 .row .section{
@@ -295,7 +299,7 @@ header nav li:hover{
     background-color: #529995;
     border: none;
     padding: 10px 80px 10px 80px;
-    
+    border-radius: 5px;
     font-family: 'Hind';
     font-weight: bold;
     text-align: center;
@@ -310,4 +314,179 @@ header nav li:hover{
 .container-5 .row .panel .content .image{
     padding: 3rem;
     position: absolute;
+}
+
+/* container-6 */
+.container-6{
+    width: 100%;
+    height: 800px;
+    background-color: #529995;
+}
+.container-6 .row .section .target .title h2{
+    color: #FFF;
+}
+.container-6 .row .section .target .body > p{
+    text-align: center;
+    color: #FFF;
+    width: 50rem;
+    margin-left: 20%;
+}
+
+.container-6 .row-2 .section .target .body{
+    text-align: center;
+}
+
+.container-6 .row-2 .section .target .footer{
+    text-align: center;
+}
+.container-6 .row-2 .section .target .footer button{
+    color: #FFF;
+    background-color: #529995;
+    border: none;
+    padding: 10px 80px 10px 80px;
+    border-radius: 5px;
+    font-family: 'Hind';
+    font-weight: bold;
+    text-align: center;
+    margin-left: 0%;
+    cursor: pointer;
+}
+.container-6 .row-2 .section .target .footer button:hover{
+    color: #529995;
+    background-color: #FFF;
+    border: solid 0.1px #529995;
+}
+.container-6 .row-2 .section .target .title{
+    text-align: center;
+}
+
+.container-6 .row-2 .section .target{
+    display: inline-block;
+    width: 16rem;
+    height: 32rem;
+    border-radius: 5px;
+    background-color: #f1f8f3;
+    padding: 1rem;
+    margin-right: 6rem;
+    margin-left: 3rem;
+
+}
+.container-6 .row-2 .section{
+    margin-left: 2rem;
+}
+
+/* container-7 */
+.container-7{
+    width: 100%;
+    height: 700px;
+    background-color: transparent;
+}
+.container-7 .row .section .image{
+    width: 20rem;
+    height: 21rem;
+    margin-left: 32rem;
+}
+.container-7 .row .section .background-target{
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    margin-top: 2rem;
+    margin-left: 0%;
+}
+.container-7 .row .section .chica-yoga-target{
+    position: absolute;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    margin-left: -17rem;
+    margin-top: 5rem;
+}
+.container-7 .row-2 .section .target .body >p{
+    width: 50rem;
+    text-align: center;
+    color: #529995;
+    opacity: 0.6;
+    margin-left: 20%;
+}
+
+/* .container-8 */
+.container-8{
+    width: 100%;
+    height: 400px;
+    background-color: #519894;
+}
+.container-8 .row .section .target h2{
+    color: #FFF;
+}
+.container-8 .row .section .body > p{
+    width: 50rem;
+    color: #FFF;
+    margin-left: 20%;
+    text-align: center;
+}
+.container-8 .row .section .footer{
+    width: 50rem;
+    margin-left: 20%;
+    text-align: center;
+}
+.container-8 .row .section .footer input{
+    width: 70%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Hind';
+    letter-spacing: 1px;
+}
+.container-8 .row .section .footer button{
+    width: 15%;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f8f3;
+    color: #519894;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: inline;
+}
+.container-8 .row .section .footer button:hover{
+    background-color: #519894;
+    color: #f1f8f3;
+}
+
+/* .container-9 */
+.container-9{
+    width: 100%;
+    height: 400px;
+    background-color: transparent;
+}
+.container-9 .row .section .target{
+    display: inline-block;
+    padding: 2rem;
+}
+.container-9 .row .section .target .title{
+    font-family: 'Hind';
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #519894;
+}
+.container-9 .row .section .target .body > p{
+    width: 30rem;
+}
+.container-9 .row .section .target .body ul {
+    list-style: none;
+    font-family: 'Hind';
+    font-size: 1.2rem;
+    color: #519894;
+    opacity: 0.7;
+    letter-spacing: 1px;
+}
+.container-9 .row .section .target .body ul li{
+    margin-left: -20%;
+}
+#social .body ul li a{
+    text-decoration: none;
+    color: #519894;
 }
